@@ -1,0 +1,55 @@
+name: hvest
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  image_picker: ^0.8.6
+  flutter_svg: ^1.1.6
+  pin_code_fields: ^7.3.0
+  sms_autofill: ^2.0.0
+  intl: ^0.17.0
+  dropdown_search: ^5.0.5
+  video_player: ^2.4.10
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/icon/
+    - assets/image/
+    - assets/logo/
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsItalic.ttf
+          weight: 400
+    - family: poppinsregular
+      fonts: 
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: poppinsbold
+      fonts: 
+        - asset: assets/fonts/Poppins-Bold.ttf
+    - family: poppinssemibold
+      fonts: 
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+    - family: poppinsitalic
+      fonts: 
+        - asset: assets/fonts/Poppins-Italic.ttf

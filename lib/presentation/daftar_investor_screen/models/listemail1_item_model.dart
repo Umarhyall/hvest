@@ -1,0 +1,1 @@
+class Listemail1ItemModel {}
