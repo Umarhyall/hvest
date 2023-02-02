@@ -29,9 +29,6 @@
 Dart SDK Version 2.18.0 or greater.
 Flutter SDK Version 3.3.0 or greater.
 
-### Figma design guidelines for better accuracy
-
-
 ### App Navigations
 
 Check your app's UI from the AppNavigation screen of your app.
@@ -87,5 +84,3 @@ Resolve the errors and warnings that are shown in the application.
 - cached_network_image - For storing internet image into cache
   https://pub.dev/packages/cached_network_image
     
-### Support
-
